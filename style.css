@@ -63,8 +63,145 @@ header{
 }
 main{
     width:100%;
-	height:800px;
+	height:4000px;
 	border:2px solid black;	
+}
+.first{
+	background-color:#f7f7f7;
+	height:auto;
+}
+.first1{
+	height:auto;
+	display:flex;
+	width:80%;
+	margin-left:140px;
+	padding-top:140px;
+}
+.f-img{
+	padding-bottom:30px;
+	border:20px solid #b8a07e;
+}
+.img1{
+	width:320px;
+}
+.img1 img{
+	margin-top: -60px;
+	margin-left: 40px;
+}
+.pag{
+	text-align:left;
+	margin-left:85px;
+	color: #999999;
+}
+.pag-h{
+	font-family: "Playfair Display", serif;
+    font-size: 28px;
+}
+.pag-p{
+	 font-family: "Poppins", helvetica;
+	 font-size:15px;
+	 line-height:28px;
+}
+.main{
+	background-color:#f7f7f7;
+	width:100%;
+	height:300px;
+}
+.action{
+	 display:flex;
+	 font-family: "Poppins", helvetica;
+	 padding-top:100px;
+	 width:80%;
+	 margin-left:140px;
+}
+.act1 p{
+	 font-size:13px;
+	 color:#999999;
+	 line-height:22px;
+	 margin:0;
+}
+.por-h h3{
+	font-family: "Poppins", helvetica;
+	font-size:28px;
+	text-align:center;
+}
+.names ul{
+	display:flex;
+	font-family: "Poppins", helvetica;
+	margin-left:510px;
+}
+.names ul li{
+	list-style:none;
+	cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 5px;
+	text-align:center;
+}
+.img1{
+	display:flex;
+	margin-left:30px;
+}
+.img-p{
+	margin:30px;
+	max-width:100%;
+	padding-top:40px;
+}
+.img-p img{
+    height:267px;
+}
+.img2{
+	display:flex;
+	margin-left:90px;
+}
+.img-p1{
+	margin:12px;
+    max-width:100%;
+	padding-top:20px;
+}
+.img-p1 img{
+    height:267px;
+}
+.JOURNAL{
+	background-color:#f7f7f7;
+	height:600px;
+}
+.jou-h h3{
+	text-align:center;
+	font-family: "Poppins", helvetica;
+	padding-top:60px;
+	font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.file{
+	display:flex;
+	margin-left:70px;
+}
+.jou-f{
+	width:30%;
+	margin:10px;
+}
+.jou-f img{
+	height:267px;
+}
+.jou-f h4 a{
+	text-decoration:none;
+	color:black;
+	font-family: "Poppins", helvetica;
+	font-size:18px;
+	letter-spacing:1px;
+}
+.jou-f p{
+	font-size:14px;
+	font-family: "Poppins", helvetica;
+	color:#999999;
+	letter-spacing:1px;
 }
 footer{
 	width:100%;
