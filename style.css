@@ -1,8 +1,9 @@
 header{
 	width:100%;
 	height:70px;
-	border:2px solid orange;
 	top:0;
+	position:fixed;
+	background-color:white;
 }
 .heading{
 	display:flex;
@@ -41,6 +42,7 @@ header{
 	height:100vh;
 	width:100%;
 	background-size:cover;
+	padding-top:0;
 }
 .home h1{
 	font-family: "Poppins", helvetica;
@@ -58,13 +60,22 @@ header{
 	color: #fff;
 	padding-left:100px;
 	font-weight:700;
-	top:0px;
 	letter-spacing:3px;
+}
+.home ul{
+	display:flex;
+	padding-left:100px;
+}
+.home ul li{
+	list-style:none;
+}
+.home ul li a{
+	margin:10px;
+	color:white;
 }
 main{
     width:100%;
-	height:4000px;
-	border:2px solid black;	
+	height:2900px;
 }
 .first{
 	background-color:#f7f7f7;
@@ -120,6 +131,9 @@ main{
 	 line-height:22px;
 	 margin:0;
 }
+.act1 i{
+	font-size:30px;
+}
 .por-h h3{
 	font-family: "Poppins", helvetica;
 	font-size:28px;
@@ -142,6 +156,9 @@ main{
     color: #999999;
     margin-bottom: 5px;
 	text-align:center;
+}
+.names ul li:hover{
+	color:#b8a07e;
 }
 .img1{
 	display:flex;
@@ -197,14 +214,83 @@ main{
 	font-size:18px;
 	letter-spacing:1px;
 }
+.jou-f h4 a:hover{
+	color:#b8a07e;
+}
 .jou-f p{
 	font-size:14px;
 	font-family: "Poppins", helvetica;
 	color:#999999;
 	letter-spacing:1px;
 }
+.add{
+	display:flex;
+	width:100%;
+}
+.add-name{
+	width:40%;
+}
+.add-name h3{
+	font-family: "Poppins", helvetica;
+	font-size:26px;
+	color: #292929;
+	padding-top:80px;
+	margin-left:150px;
+}
+address{
+    font-family:"Poppins", helvetica;
+    font-size:16px;
+    color:#898989;
+	margin-left:150px;
+	letter-spacing:1px;
+	line-height:30px;
+}
+.details{
+    width:44%;
+    height:400px;
+	margin-top:90px;
+	margin-left:50px;
+}
+.lads{
+    display:flex;
+	justify-content:space-between;
+}
+.labs1 input{
+	height:50px;
+	width:261px;
+	
+}
+.lads1 input{
+	height:50px;
+	width:580px;
+}
+textarea{
+	margin-top:10px;
+	min-height:160px;
+	width:580px;
+}
+input{
+	margin-top:10px;
+}
+button{
+	margin-top:10px;
+	height:40px;
+	width:580px;
+	background-color:black;
+	color:#fff;
+	font-family:"Poppins", helvetica;
+}
 footer{
 	width:100%;
 	height:200px;
-	border:2px solid blue;
+	background-color:#f7f7f7;
+	text-align:center;
+}
+.logos{
+	padding-top:60px;
+}
+.logos p{
+	font-family:"Poppins", helvetica;
+	color:#999999;
+	font-size:12px;
 }
